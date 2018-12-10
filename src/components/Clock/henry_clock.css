@@ -1,0 +1,47 @@
+	.clock {
+		display: block;
+		margin: 0 auto;
+	}
+	path {
+		opacity: 0.5;
+		shape-rendering: geometricPrecision;
+	}
+	.seconds {
+		fill: blue;
+	 }
+	.minutes {
+		fill: red;
+	 }
+	.hours {
+		fill: green;
+	 }
+	 text.label {
+		fill: #262626;
+		text-anchor: middle;
+		dominant-baseline: central;
+		font: 24px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		shape-rendering: geometricPrecision;
+		font-weight: normal;
+		paint-order: stroke;
+		stroke: #FFF8DC;
+		stroke-width: 0px;
+	 }
+	 path.tick{
+		fill: #262626;
+		paint-order: stroke;
+		stroke: #FFF8DC;
+		stroke-width: 0px;
+	 }
+	 text.title {
+		fill: #595959;
+		text-anchor: end;
+		dominant-baseline: central;
+		font: 36px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		shape-rendering: geometricPrecision;
+		paint-order: stroke;
+		stroke: #FFF8DC;
+		stroke-width: 2px;
+		font-weight: bold;
+	 }

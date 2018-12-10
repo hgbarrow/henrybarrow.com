@@ -1,0 +1,105 @@
+body {
+    background: #FFF8DC;
+    background-image: url("../images/vintage-concrete.png");
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.clock-container {
+    height:85vh;
+}
+
+.icon-container {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 2em;
+    left: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    width: 100%;
+}
+.icon-set {
+    background-color: rgba(255, 248, 220, 0.9);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.6);
+    border-radius: 30px;
+    margin-top:2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 500px;
+}
+
+.icon-button {
+    justify-self: center;
+    grid-column-start: auto;
+    grid-column-end: span 1;
+    grid-row-start: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.icon-button h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.icon-button h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.icon-button a {
+    text-decoration:none;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+.footer {
+    /* justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: span 3; */
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+.footer p {
+    margin: 0px;
+    font-size: 10px;
+}
+
+.resume-container {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;;
+}
+.resume {
+    box-shadow: 0 15px 20px 0 rgba(16, 36, 94, 0.2);
+}
+
+.react-pdf__Document {
+    border-radius: 80px;
+}
