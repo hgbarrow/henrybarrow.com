@@ -1,9 +1,12 @@
 import React from 'react'
 
-import { Document, Page } from 'react-pdf'
+import { Document, Page, pdfjs } from 'react-pdf'
 import Layout from '../components/layout'
 
 import resume from '../resume/HenryBarrowResume2018.pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${
+  pdfjs.version
+}/pdf.worker.js`
 
 export default () => {
   return (

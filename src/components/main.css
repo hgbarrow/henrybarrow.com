@@ -55,6 +55,10 @@ body {
     text-decoration:none;
 }
 
+.icon-button a:visited, a:link {
+    color: navy
+}
+
 /* Grow */
 .hvr-grow {
     display: inline-block;
