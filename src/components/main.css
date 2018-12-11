@@ -30,7 +30,7 @@ body {
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .icon-button {
@@ -48,6 +48,7 @@ body {
 }
 .icon-button h2 {
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
