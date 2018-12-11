@@ -37,6 +37,10 @@ class Clock {
     this.node = node
     this.width = Math.min(node.clientWidth, node.clientHeight)
     this.height = this.width
+    this.svgHeight = this.height
+    if (node.clientHeight > node.clientWidth) {
+      this.svgHeight = this.svgHeight + 100
+    }
     this.tickPadding = Math.min(this.width, this.height) * 0.015
     this.arcPad = 0
     this.radius = Math.min(this.width, this.height) / 2 - 2 * this.tickPadding
@@ -56,7 +60,7 @@ class Clock {
       .append('svg')
       .attr('class', 'clock')
       .attr('width', this.width)
-      .attr('height', this.height)
+      .attr('height', this.svgHeight)
       .append('g')
 
     this.arcsGroup = this.vis
