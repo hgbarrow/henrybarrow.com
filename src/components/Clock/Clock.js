@@ -76,7 +76,6 @@ class Clock extends Component {
     return (
       <div className="clock-container">
         <div
-          onClick={this.resetClock}
           ref={node => (this.node = node)}
           style={{
             width: '100%',
