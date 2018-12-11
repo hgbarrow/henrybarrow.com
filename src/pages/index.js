@@ -17,7 +17,7 @@ const IndexPage = () => (
         <div className="icon-button hvr-grow">
           <Link to="/resume">
             <h1>
-              <FontAwesomeIcon icon={faFileAlt} />
+              <FontAwesomeIcon icon={faFileAlt} fixedWidth />
             </h1>
             <h2>Resume</h2>
           </Link>
@@ -25,7 +25,7 @@ const IndexPage = () => (
         <div className="icon-button hvr-grow">
           <a href="https://www.linkedin.com/in/henry-barrow-42b54991/">
             <h1>
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} fixedWidth />
             </h1>
             <h2>LinkedIn</h2>
           </a>
@@ -33,7 +33,7 @@ const IndexPage = () => (
         <div className="icon-button hvr-grow">
           <a href="https://github.com/hgbarrow">
             <h1>
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} fixedWidth />
             </h1>
             <h2>GitHub</h2>
           </a>
