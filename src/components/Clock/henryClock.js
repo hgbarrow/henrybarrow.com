@@ -153,7 +153,14 @@ class Clock {
 
     this.arcBody = d3
       .arc()
-      .startAngle(0)
+      .startAngle(function(d) {
+        let lead = getScale(d.unit)(d.numeric)
+        if (lead > (23 * pi) / 12) {
+          return 24 * getScale(d.unit)(d.numeric) - (24 * 23 * pi) / 12
+        } else {
+          return 0
+        }
+      })
       .endAngle(function(d) {
         return getScale(d.unit)(d.numeric)
       })
