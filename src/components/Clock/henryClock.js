@@ -35,8 +35,8 @@ class Clock {
   })
   constructor(node) {
     this.node = node
-    this.width = node.clientWidth
-    this.height = node.clientHeight
+    this.width = Math.min(node.clientWidth, node.clientHeight)
+    this.height = this.width
     this.tickPadding = Math.min(this.width, this.height) * 0.015
     this.arcPad = 0
     this.radius = Math.min(this.width, this.height) / 2 - 2 * this.tickPadding

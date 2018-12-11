@@ -78,7 +78,12 @@ class Clock extends Component {
         <div
           onClick={this.resetClock}
           ref={node => (this.node = node)}
-          style={{ width: '100%', height: '100%' }}
+          style={{
+            width: '100%',
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+          }}
         />
       </div>
     )
