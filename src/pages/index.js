@@ -20,7 +20,7 @@ const IndexPage = () => (
           </a>
         </div>
         <div className="icon-button">
-          <a href="https://github.com/hgbarrow">
+          <a href="https://github.com/hgbarrow/henrybarrow.com">
             <h1>
               <FontAwesomeIcon icon={faGithub} fixedWidth />
             </h1>
