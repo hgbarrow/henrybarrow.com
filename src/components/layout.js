@@ -26,8 +26,7 @@ const Layout = ({ children }) => (
             },
             {
               name: 'keywords',
-              content:
-                'Software engineer, for hire, phd, react, go, es6, es7, python',
+              content: 'Software engineer, phd, react, go, es6, es7, python',
             },
           ]}
         >
@@ -44,7 +43,7 @@ const Layout = ({ children }) => (
           {children}
         </div>
         <div className="footer">
-          <p>Copyright 2018 Henry Barrow</p>
+          <p>Copyright 2019 Henry Barrow</p>
         </div>
       </>
     )}

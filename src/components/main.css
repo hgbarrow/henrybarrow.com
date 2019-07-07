@@ -29,8 +29,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 450px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 300px;
 }
 
 .icon-button {
