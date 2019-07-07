@@ -4,3 +4,4 @@ Built with [Gatsby](https://www.gatsbyjs.org/), [React](https://reactjs.org/), a
 ### Development
 1) Run `npm install`
 2) Run `gatsby develop`
+3) Open browser to http://localhost:8000
