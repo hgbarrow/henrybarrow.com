@@ -2,7 +2,7 @@
   "name": "HenryBarrow.com",
   "description": "Henry Barrow's personal website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Henry Barrow <hgbarrow@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.9",
     "@fortawesome/free-brands-svg-icons": "^5.6.0",
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/hgbarrow/henrybarrow.com"
   }
 }
