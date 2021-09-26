@@ -40,9 +40,6 @@ class Clock extends Component {
         this.width = this.node.clientWidth
         this.canReset = true
         this.updateClock()
-        // setTimeout(() => {
-        //   this.canReset = true
-        // }, 5000)
       }, 700)
     }, 1000)
   }

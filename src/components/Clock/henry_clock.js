@@ -222,14 +222,3 @@ var getScale = function(unit) {
     return scaleMins
   } else return scaleHours
 }
-// render(startTime)
-// setInterval(function() {
-//   var data = fields()
-//   if (
-//     width != window.innerWidth * widthFraction ||
-//     height != window.innerHeight * heightFraction
-//   ) {
-//     window.location.reload()
-//   }
-//   return render(data)
-// }, 1000)

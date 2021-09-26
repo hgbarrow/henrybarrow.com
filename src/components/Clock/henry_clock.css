@@ -1,47 +1,45 @@
-	.clock {
-		display: block;
-		margin: auto;
-	}
-	path {
-		opacity: 0.5;
-		shape-rendering: geometricPrecision;
-	}
-	.seconds {
-		fill: blue;
-	 }
-	.minutes {
-		fill: red;
-	 }
-	.hours {
-		fill: green;
-	 }
-	 text.label {
-		fill: #262626;
-		text-anchor: middle;
-		dominant-baseline: central;
-		font: 24px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-		shape-rendering: geometricPrecision;
-		font-weight: normal;
-		paint-order: stroke;
-		stroke: #FFF8DC;
-		stroke-width: 0px;
-	 }
-	 path.tick{
-		fill: #262626;
-		paint-order: stroke;
-		stroke: #FFF8DC;
-		stroke-width: 0px;
-	 }
-	 text.title {
-		fill: #595959;
-		text-anchor: end;
-		dominant-baseline: central;
-		font: 36px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-		shape-rendering: geometricPrecision;
-		paint-order: stroke;
-		stroke: #FFF8DC;
-		stroke-width: 2px;
-		font-weight: bold;
-	 }
+.clock {
+  display: block;
+  margin: auto;
+}
+path {
+  opacity: 0.5;
+  shape-rendering: geometricPrecision;
+}
+.seconds {
+  fill: rgb(52, 208, 255);
+}
+.minutes {
+  fill: rgb(252, 54, 235);
+}
+.hours {
+  fill: rgb(144, 255, 41);
+}
+text.label {
+  fill: #f3f3f3;
+  text-anchor: middle;
+  font: 24px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  shape-rendering: geometricPrecision;
+  font-weight: normal;
+  paint-order: stroke;
+  stroke: #fff8dc;
+  stroke-width: 0px;
+}
+path.tick {
+  fill: #f3f3f3;
+  paint-order: stroke;
+  stroke: #fff8dc;
+  stroke-width: 0px;
+}
+text.title {
+  fill: #f3f3f3;
+  text-anchor: end;
+  font: 36px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  shape-rendering: geometricPrecision;
+  paint-order: stroke;
+  stroke: #fff8dc;
+  stroke-width: 2px;
+  font-weight: bold;
+}
