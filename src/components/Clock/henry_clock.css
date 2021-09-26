@@ -16,20 +16,20 @@ path {
   fill: rgb(144, 255, 41);
 }
 text.label {
-  fill: #f3f3f3;
+  --label-color: #a8a8a8;
+  fill: var(--label-color);
   text-anchor: middle;
   font: 24px -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   shape-rendering: geometricPrecision;
   font-weight: normal;
   paint-order: stroke;
-  stroke: #fff8dc;
   stroke-width: 0px;
 }
 path.tick {
-  fill: #f3f3f3;
+  --tick-color: #a8a8a8;
+  fill: var(--tick-color);
   paint-order: stroke;
-  stroke: #fff8dc;
   stroke-width: 0px;
 }
 text.title {
@@ -39,7 +39,7 @@ text.title {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   shape-rendering: geometricPrecision;
   paint-order: stroke;
-  stroke: #fff8dc;
+  stroke: #ffffff;
   stroke-width: 2px;
   font-weight: bold;
 }
