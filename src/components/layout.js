@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
           {children}
         </div>
         <div className="footer">
-          <p>Copyright 2019 Henry Barrow</p>
+          <p>Copyright 2021 Henry Barrow</p>
         </div>
       </>
     )}
